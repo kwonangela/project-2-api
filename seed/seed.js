@@ -5,7 +5,7 @@ import Character from "../models/Character.js"
 
 let charData = data.map(item => {
     const char = {};
-    char.id = item.id;
+    char.charId = item.id;
     char.firstName = item.firstName;
     char.lastName = item.lastName;
     char.fullName = item.fullName;

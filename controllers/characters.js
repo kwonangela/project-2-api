@@ -14,7 +14,6 @@ export const createChar = async (req, res) => {
 }
 
 export const getChars = async (req, res) => {
-    console.log('jhfghfkjgfkjg')
     try {
         const chars = await Character.find();
         res.json(chars);
@@ -25,7 +24,6 @@ export const getChars = async (req, res) => {
 };
 
 export const getChar = async (req, res) => {
-    console.log('jgfjhtdjdhdhgdhjffjkgfkjgkjggkjhgkjhg')
     try {
         const { id } = req.params;
         const char = await Character.findById(id);

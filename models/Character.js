@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 
 const characterSchema = new mongoose.Schema({
-    id: Number,
+    charId: Number,
     firstName: String,
     lastName: String,
     fullName: String,
