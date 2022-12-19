@@ -1,9 +1,7 @@
 import mongoose from "mongoose"
 import connection from "../db/connection.js"
 import data from "../db/characters.json" assert { type: "json" }
-import contData from "../db/continents.json" assert { type: "json" }
 import Character from "../models/Character.js"
-import Continent from "../models/Continent.js"
 
 let charData = data.map(item => {
     const char = {};
@@ -25,10 +23,3 @@ Character
     .then(() => console.log("Characters listed!"))
     .then(() => mongoose.disconnect())
     .catch(error => console.error ("oops characters failed", error))
-
-Continent
-    .deleteMany({})
-    .then(() => Continent.create(contData))
-    .then(() => console.log("Continents created!"))
-    .then(() => mongoose.disconnect())
-    .catch(error => console.error ("oops continents failed", error))

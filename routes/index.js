@@ -1,5 +1,4 @@
 import { Router } from "express";
-import contRoutes from "./continents.js";
 import characterRoutes from "./characters.js"
 
 const router = Router();
@@ -9,6 +8,5 @@ router.get("/", (req, res) => {
 });
 
 router.use("/characters", characterRoutes);
-router.use("/continents", contRoutes);
 
 export default router;
