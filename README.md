@@ -3,7 +3,8 @@
 
 This is an API based off the characters in the popular HBO show, Game of Thrones. 
 This API is hosted locally and the entire character list can be accessed by adding "/characters" to the URL. 
-To find a specific character, you need to add the individual's ID after the "/characters" (ex: ".../characters/63a0be23ad145d16b7e3434d" for Daenerys Targaryen) 
+To find a specific character, you need to add the individual's ID after the "/characters" (ex: ".../characters/63a0be23ad145d16b7e3434d" for Daenerys Targaryen).
+The database includes each character's information, such as name, title, family, and an image. 
 
 # Screenshots
 Below are a few screenshots of the locally hosted API, including some with Postman. 
