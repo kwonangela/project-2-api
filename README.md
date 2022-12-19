@@ -17,7 +17,7 @@ Below are a few screenshots of the locally hosted API, including some with Postm
 
 3. Posting a new character in the database using Postman: (fake image url because it takes the image straight from the API website)
 
-<img width="752" alt="Screenshot 2022-12-19 at 3 31 30 PM" src="https://user-images.githubusercontent.com/117434437/208523709-7f8d5d6b-73d3-4f79-a658-fa2bd1afca60.png">
+<img width="552" alt="Screenshot 2022-12-19 at 3 31 30 PM" src="https://user-images.githubusercontent.com/117434437/208523709-7f8d5d6b-73d3-4f79-a658-fa2bd1afca60.png">
 
 4. Deleting that new character from database using Postman:
 <img width="327" alt="Screenshot 2022-12-19 at 3 32 30 PM" src="https://user-images.githubusercontent.com/117434437/208525294-563bba89-2b6e-4770-8e47-d7d0eb62476f.png">
