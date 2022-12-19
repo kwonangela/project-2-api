@@ -8,10 +8,4 @@ fetch("https://thronesapi.com/api/v2/Characters")
     })
     .catch (err => console.error(err))
 
-fetch("https://thronesapi.com/api/v2/Continents")
-    .then (res => res.json())
-    .then (data => {
-        fsPromises.writeFile("./db/continents.json", JSON.stringify(data))
-    })
-    .catch (err => console.error(err))
     
