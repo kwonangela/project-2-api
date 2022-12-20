@@ -25,6 +25,10 @@ Below are a few screenshots of the locally hosted API, including some with Postm
 # Technologies Used
 JavaScript
 
+# How To Install Dependencies 
+npm init -y
+npm i express mongoose chalk cors morgan node-fetch nodemon 
+
 # Next Steps
 - Add more information to my database (ex: which episodes the characters appeared on, other members of their family, etc.)
 - Make each character easier to find through the URL (ex: name and not the generated ID)
